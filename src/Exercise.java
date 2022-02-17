@@ -2,7 +2,7 @@
 
 public class Exercise {
     public static int Calculate(int[] arr){
-    int len= arr.length;
+    int len = arr.length;
     for (int i = 0; i< len; i++)
         arr[arr[i]%len] += len;
  
